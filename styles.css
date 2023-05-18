@@ -1,0 +1,19 @@
+h1{
+color:#8B008B;
+font-family:Algerian;
+font-size:40;
+text-align:center;
+font-weight:bold;
+}
+h4{
+color:rgb(255, 0, 0);
+text-align:right;
+}
+body{
+ background-image:url("bg1.jpg");
+  background-color: #cccccc; 
+  
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}

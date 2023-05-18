@@ -1,0 +1,12 @@
+body{
+ background-image:url("bg3.jpg");
+  background-color: #cccccc; 
+  
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+p{
+font-size:20;
+font-weight:bold;
+}

@@ -1,0 +1,12 @@
+body{
+ background-image:url("bg2.jpg");
+  background-color: #cccccc; 
+  
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+li{font-size:20;
+}
+h1{color:#8B008B;
+}
