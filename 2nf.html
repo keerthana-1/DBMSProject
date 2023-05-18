@@ -1,0 +1,66 @@
+<html>
+<head>
+<link href="body.css" rel="stylesheet">
+<link href="h1.css" rel="stylesheet">
+</head>
+<body>
+<h1>Second Normal Form</h1>
+<h3>Rule:</h3>
+<p>A relational schema R is in 2NF if every nonprime attribute A in R is fully functionally dependent on the primary key of R. </p>
+<img src="2pt.png" height=100 width=800>
+<p>Prime attributes: pid<br>
+Non-prime attributes: name, age, gender, disease, weight, address, ph.no<br>
+{pid}->{name, age, gender, disease, weight, address, ph.no}
+<br>
+Fully functionally dependent . so relation is in 2NF.
+</p>
+<img src="22.png" height=100 width=800>
+<p>Prime attributes: dept_no<br>
+Non-prime attributes: dept_name, no.of.emp<br>
+{dept_no }->{dept_name, no.of.emp}<br>
+Fully functionally dependent . so relation is in 2NF.
+</p>
+<img src="23.png" height=100 width=800>
+<p>Prime attributes: d_id<br>
+Non-prime attributes: d_name, desg, d_pn, d_add, d_sal, d_exp, d_type, dno<br>
+{d_id}->{d_name, desg, d_pn, d_add, d_sal, d_exp, d_type, dno}<br>
+Fully functionally dependent . so relation is in 2NF.
+</p>
+<img src="24.png" height=100 width=800>
+<p>Prime attributes: n_id<br>
+Non-prime attributes: n_name, n_shift, n_phn, n_add, n_sal, n_exp, n_age, rno<br>
+{n_id}->{n_name, n_shift, n_phn, n_add, n_sal, n_exp, n_age, rno}<br>
+Fully functionally dependent . so relation is in 2NF.
+</p>
+<img src="25.png" height=100 width=800>
+<p>Prime attributes: r_id<br>
+Non-prime attributes: r_name, r_shift, r_phn, r_add, r_sal, r_age<br>
+{r_id}->{ r_name, r_shift, r_phn, r_add, r_sal,  r_age}<br>
+Fully functionally dependent . so relation is in 2NF.
+</p>
+<img src="26.png" height=100 width=800>
+<p>Prime attributes: apt_id<br>
+Non-prime attributes: apt_time, apt_date, p_id<br>
+{apt_id}->{ apt_time, apt_date, p_id}<br>
+Fully functionally dependent . so relation is in 2NF.
+</p>
+<img src="27.png" height=100 width=800>
+<p>Prime attributes: rno<br>
+Non-prime attributes: r_type, cost<br>
+{rno}->{ r_type, cost }<br>
+Fully functionally dependent . so relation is in 2NF.
+</p>
+<img src="28.png" height=100 width=800>
+<p>Prime attributes:adm_id<br>
+Non-prime attributes: p.id, room_no, adv, d_adm, d_dis<br>
+{adm_id}->{ p.id, room_no, adv, d_adm, d_dis}<br>
+Fully functionally dependent . so relation is in 2NF.
+</p>
+<img src="29.png" height=100 width=800>
+<p>Prime attributes: bill_no<br>
+Non-prime attributes: p_id, med_charge , room_charge, op_charge, doc_charge, ns_charge, t_amt<br>
+{ bill _no} -> { p_id,med_charge,room_chargev,op_charge,doc_charge,ns_charge,t_amt }<br>
+Fully  functionally dependent . so relation is in 2NF.
+</p>
+</body>
+</html>
